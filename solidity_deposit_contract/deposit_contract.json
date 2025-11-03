@@ -1,7 +1,7 @@
 {"abi": 
   
   [{"inputs":[],
-    "stateMutability":"nonpayable",
+    "stateMutability":"payable",
     "type":"constructor"},
     {"anonymous":false,
       
@@ -10,22 +10,22 @@
     "internalType":"bytes",
         "name":"pubkey",
         "type":"bytes"},
-    {"indexed":false,         
+    {"indexed":true,         
   "internalType":"bytes",
       
           "name":"withdrawal_credentials",
           "type":"bytes"},
-        {"indexed":false,
+        {"indexed":true,
   "internalType":"bytes",
           
           "name":"amount",
           "type":"bytes"},
-      {"indexed":false,
+      {"indexed":true,
  "internalType":"bytes",
         
          "name":"signature",
          "type":"bytes"},
-    {"indexed":false,
+    {"indexed":true,
  "internalType":"bytes",
       
       "name":"index",
