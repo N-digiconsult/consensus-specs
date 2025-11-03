@@ -6,7 +6,7 @@
     {"anonymous":false,
       
      "inputs":
-  [{"indexed":false,
+  [{"indexed":true,
     "internalType":"bytes",
         "name":"pubkey",
         "type":"bytes"},
